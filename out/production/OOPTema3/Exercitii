@@ -1,0 +1,62 @@
+I.
+Create a class called Date that includes three pieces of information as instance variables—a month (typeint), a
+day (typeint) and a year (typeint). Your class should have a constructor that initializes the three instance
+variables and assumes that the values provided are correct. Provide a set and a get method for each instance
+variable. Provide a method displayDate that displays the month, day and year separated by forward slashes(/).
+Write a test application named DateTest that demonstrates classDate’s capabilities.
+
+Creati o clasa numita Date care include 3 informatii ca si variabile de instanta (3 atribute):
+	month (int)
+	day (int)
+	year (int)
+Clasa trebuie sa aiba un constructor, care initializeaza cele 3 variabile de instanta. Se presupune ca valorile introduse sunt corecte si nu au nevoie de validari. Creati metode de set si get pentru toate cele 3 atribute ale clasei. De asemenea, clasa trebuie sa dispuna de o metoda numita displayDate()
+care afiseaza luna, anul si ziua, despartite de cate un slash (/)
+Scrieti o aplicatie de test numita DateTest care demonstreaza capabilitatile clasei Date.
+
+II.
+a.
+Create a super class called Car. The Car class has the following fields and methods.
+Creati o super clasa numita car. Clasa Car are urmatoarele atribute si metode:
+	◦intspeed;
+	◦doubleregularPrice;
+	◦Stringcolor;
+	◦doublegetSalePrice();
+
+b.
+Create a sub class of Car class and name it as Truck. The Truck class has the following fields and methods.
+Creati o sub clasa a clasei Car, numita Truck (Camion). Clasa Truck are urmatoarele campuri si metode:
+	◦intweight;
+	◦doublegetSalePrice();//Ifweight>2000,10%discount.Otherwise,20%discount.
+
+c.
+Create a subclass of Car class and name it as Ford. The Ford class has the following fields and methods
+Creati o sub clasa a clasei Care, numita Ford. Clasa Ford are urmatoarele campuri si metode:
+	◦intyear;
+	◦intmanufacturerDiscount;
+	◦doublegetSalePrice();//FromthesalepricecomputedfromCarclass,subtractthemanufacturerDiscount.
+
+
+d.
+Create a subclass of Car class and name it as Sedan. The Sedan class has the following fields and methods.
+Creati o sub clasa a clasei Care, numita Sedan. Clasa Sedan are urmatoarele campuri si metode:
+	◦intlength;
+	◦doublegetSalePrice();//Iflength>20feet,5%discount,Otherwise,10%discount
+
+e.
+Create MyOwnAutoShop class which contains the main() method. Perform the following within the main()
+method.
+◦Create an instance of Sedan class and initialize all the fields with appropriate values. Use super(...) method in
+the constructor for initializing the fields of the superclass.
+◦Create two instances of the Ford class and initialize all the fields with appropriate values. Use super(...)
+method in the constructor for initializing the fields of the super class.
+www.oumstudents.tk
+◦Create an instance of Car class and initialize all the fields with appropriate values.
+Display the sale prices of all instance
+
+Creati clasa MyOwnAutoShop care contine metoda main(). Efectuati urmatoarele operatii in interiorul metodei main():
+a. Creati o instanta a clasei Sedan si initializati toate campurile cu valori potrivite. Folositi metoda super(...) in constructorul clasei Sedan,
+pentru a initializa campurile super clasei.
+b. Creati doua instante ale clasei Ford si initializati campurile corespunzator. Folositi super(...) in constructor pentru initializarea atributelor
+super clasei.
+c. Creati o instanta a clasei Car si initializati toate campurile cu valori portivite.
+d. Afisati pretul de vanzare al tuturor instantelor create pana acum..
